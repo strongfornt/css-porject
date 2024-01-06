@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding: 20px 0;
+}
+nav > ul  {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+.yellow {
+    background-color: #FD6E0A;
+    padding: 10px 10px;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
+}
+.parents {
+   align-items: center;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+}
+.profile{
+    width: 420px;
+    height: 500px;
+}
+.contact{
+    color: #FD6E0A;
+    border:1px solid #FD6E0A;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.btn{
+   margin-top: 15px;
+}
+.pettern {
+    max-width: 400px;
+}
+.hey{
+    font-size: 25px;
+    font-weight: 700px;
+    opacity: 0.6;
+    margin-bottom: 5px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    
+}
+/* main sextion */
+/* .about{
+    max-width: 500px;
+    border:1px solid red;
+   
+    padding:60px;
+    margin: 0 auto;
+    
+} */
+
+.me{
+    margin-top: 50px;
+width:500px;
+margin: 60px auto;
+padding: 60px;
+background-color: #FFF8F3;
+}
+.section-title{
+    /* color: red; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-bottom: 15px;
+}
+.small{
+    opacity: 0.9;
+}
+.identiy{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.b{
+    align-items: center;
+    margin-left: 30px;
+}
+.What-i-do{
+    /* border:1px solid red; */
+    margin-top: 50px;
+    width:500px;
+    margin: 60px auto 20px;
+    
+
+}
+   
+.what-description{
+   
+    
+}
+.work{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 700px;
+ 
+ 
+}
+.habu,img{
+    width: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.habu{
+    /* margin-left: 50px; */
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+    background-color: white;
+    /* border:1px solid red; */
+    margin-right: 10px;
+    box-shadow: 3px 3px white inset,
+    -1em 0 0.4em rgb(56, 50, 50);
+}
+.choto{
+    font-size: 10px;
+}
+.upore{
+    margin-bottom: ;
+}
