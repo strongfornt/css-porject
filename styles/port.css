@@ -43,6 +43,7 @@ nav li {
 .profile{
     width: 420px;
     height: 500px;
+    padding: 0;
 }
 .contact{
     color: #FD6E0A;
@@ -149,4 +150,105 @@ background-color: #FFF8F3;
 }
 .upore{
     margin-bottom: ;
+}
+.Resume-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.resume{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.education {
+    width: 350px;
+    
+}
+.exprience{
+    width: 350px;
+}
+.edu{
+    margin-bottom: 10px;
+    /* padding: 10px; */
+}
+.edu-title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+.institute{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+    color: #FD6E0A;
+    font-weight: 1px;
+}
+.resume-download{
+  margin-top: 30px;
+}
+.resume-btn{
+   
+    
+  
+ 
+    margin-left: 45%;
+    background-color: #FD6E0A;
+    padding: 10px 10px;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+   
+   
+}
+footer {
+    background-color: #FFF8F3;
+    height: 400px;
+    margin-top: 20px;
+}
+.footer-container {
+    display: flex;
+     justify-content: space-between;
+}
+.left-side {
+    width: 400px;
+    margin-left: 230px;
+    margin-top: 130px;
+    /* border:1px solid red */
+
+    
+}
+.left-side-title{
+    margin-bottom: 10px;
+}
+.social {
+    width: 2px;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.right-side{
+    width: 461px;
+    margin-right: 230px;
+    margin-top: 100px;
+}
+form ,input , textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+   
+}
+input,textarea{
+    background-color: #FFFFFF;
 }
